@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.middle-container {
+    display: inline;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 400px;
+    height: 100px;
+}
+.btn {
+    width: 60px;
+    height: 50px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.paraGraph {
+    cursor: pointer;
+    font-size: 24px;
+    color: blueviolet;
+
+}
